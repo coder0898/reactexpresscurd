@@ -1,0 +1,29 @@
+POST http://localhost:5000/user
+content-type: application/json
+
+{
+    "name": "sample",
+    "email": "sample@gmail.com",
+    "contact":"8589759566"
+}
+
+###
+
+GET http://localhost:5000/users
+###
+POST http://localhost:5000/user
+content-type: application/json
+
+{
+    "name": "vk",
+    "email": "vk@gmail.com",
+    "contact":"8589759566"
+}
+
+###
+
+GET http://localhost:5000/users/60aeef00-bd18-4475-acc5-bcf1be6a4d1f
+
+###
+
+DELETE http://localhost:5000/users/0e590c2b-8345-4321-a507-c8b8246e4003
